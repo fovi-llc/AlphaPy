@@ -72,11 +72,8 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 import numpy as np
 import pandas as pd
-from scipy import interp
 import seaborn as sns
 from sklearn.calibration import calibration_curve
-from sklearn.inspection import partial_dependence
-from sklearn.inspection import plot_partial_dependence
 from sklearn.metrics import auc
 from sklearn.metrics import confusion_matrix
 from sklearn.metrics import roc_curve

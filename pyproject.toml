@@ -1,9 +1,10 @@
 [project]
 name = "alphapy"
 version = "2.5.1dev0"
-description = "Add your description here"
-maintainers = [{name = "ScottFree LLC [Robert D. Scott II, Mark Conway]", email = "scottfree.analytics@scottfreellc.com"}]
+description = "AlphaPy: A Machine Learning Pipeline for Speculators"
+authors = [{name = "ScottFree LLC [Robert D. Scott II, Mark Conway]", email = "scottfree.analytics@scottfreellc.com"}]
 readme = "README.rst"
+# license = "Apache-2.0"
 
 requires-python = ">=3.11"
 
@@ -14,7 +15,8 @@ dependencies = [
     'iexfinance>=0.4.3',
     'imbalanced-learn>=0.5',
     'ipython>=7.2',
-    'keras>=2.3',
+    'keras<3.6',
+    'scikeras',
     'matplotlib>=3.0',
     'numpy>=1.26,<2',
     'pandas>=1.0',

@@ -32,8 +32,8 @@ from alphapy.globals import SSEP
 
 from keras.layers import *
 from keras.models import Sequential
-from keras.wrappers.scikit_learn import KerasClassifier
-from keras.wrappers.scikit_learn import KerasRegressor
+from scikeras.wrappers import KerasClassifier
+from scikeras.wrappers import KerasRegressor
 import logging
 import numpy as np
 from scipy.stats import randint as sp_randint
